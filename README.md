@@ -4,7 +4,7 @@
 - Fork 这个仓库
 - 本地创建`.config`文件
 - 上传`.config` 文件到 GitHub 仓库
-- 在Actions页面选择`Build OpenWrt`
+- 在Actions页面选择`ImmortalWrt Builder`
 - 点击 `Run workflow` 开始编译
 
 
