@@ -7,7 +7,10 @@
 - 在Actions页面选择`ImmortalWrt Builder`
 - 点击 `Run workflow` 开始编译
 
+## 添加turboacc
 
+-带sfe:
+ curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
 ## 致谢
 
@@ -21,4 +24,5 @@
 - [Mattraks/delete-workflow-runs](https://github.com/Mattraks/delete-workflow-runs)
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
+- [luci-app-turboacc](https://github.com/chenmozhijin/turboacc)
 
