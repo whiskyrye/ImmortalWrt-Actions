@@ -12,6 +12,7 @@
 -带sfe:
  ```bash
  curl -sSL https://github.com/whiskyrye/ImmortalWrt-Actions/blob/main/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+```
 
 ## 致谢
 
