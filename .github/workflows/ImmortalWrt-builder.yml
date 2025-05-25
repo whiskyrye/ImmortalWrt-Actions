@@ -60,11 +60,6 @@ jobs:
     - name: Install feeds
       run: cd immortalwrt && ./scripts/feeds install -a
 
-    - name: Add turboacc
-      run: ｜
-        cd immortalwrt
-        curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
-    
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files immortalwrt/files
