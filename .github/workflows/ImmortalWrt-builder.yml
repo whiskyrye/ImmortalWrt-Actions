@@ -21,7 +21,6 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     permissions:
-      releases: write
       contents: write
 
     steps:
