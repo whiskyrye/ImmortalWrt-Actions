@@ -7,7 +7,7 @@
 - 在Actions页面选择`ImmortalWrt Builder`
 - 点击 `Run workflow` 开始编译
 
-## 添加turboacc
+## 添加turboacc --不能用
 
 -带sfe:
  ```bash
