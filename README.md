@@ -10,7 +10,7 @@
 ## 添加turboacc
 
 -带sfe:
- curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+ curl -sSL https://github.com/whiskyrye/ImmortalWrt-Actions/blob/main/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
 ## 致谢
 
