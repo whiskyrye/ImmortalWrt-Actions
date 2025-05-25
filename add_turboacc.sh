@@ -4,7 +4,6 @@
 TMPDIR=$PWD
 NO_SFE=false
 LOCAL_PACKAGE=""
-
 while [[ $# -gt 0 ]]; do
     case $1 in
         --no-sfe)
