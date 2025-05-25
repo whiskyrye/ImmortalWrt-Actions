@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2016
 
-trap 'rm -rf "$TMPDIR"' EXIT
-TMPDIR=$(mktemp -d) || exit 1
-
+TMPDIR=$PWD
 NO_SFE=false
 LOCAL_PACKAGE=""
 
