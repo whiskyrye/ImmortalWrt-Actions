@@ -7,6 +7,11 @@
 - 在Actions页面选择`ImmortalWrt Builder`
 - 点击 `Run workflow` 开始编译
 
+## 当前.config 配置
+|插件|功能|
+|:-|:-|
+|adguardhome|去广告和跟踪拦截|
+
 ## 添加turboacc --目前无法在actions中实现
 
 -带sfe:
