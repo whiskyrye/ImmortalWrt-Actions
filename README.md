@@ -32,7 +32,7 @@
 |luci-app-easytier|EasyTier一个简单、安全、去中心化的内网穿透 VPN 组网方案|
 |luci-app-tailscale|Tailscale虚拟局域网|
 |luci-app-zerotier|ZeroTier虚拟网络|
----|luci-app-turboacc|Turbo ACC 网络加速|---
+|~~luci-app-turboacc~~|Turbo ACC 网络加速|
 
 ## 添加turboacc --目前无法在actions中实现
 
