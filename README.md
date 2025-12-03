@@ -7,6 +7,11 @@
 - 在Actions页面选择`ImmortalWrt Builder`
 - 点击 `Run workflow` 开始编译
 
+## config文件说明
+- v23054.config为23.05.4版本，不再使用
+- v24104.config为24.10.4版本，不含turboacc插件
+- .config为24.10.4版本，加入了turboacc插件，在使用版本
+
 ## 当前.config 配置
 |插件|功能|
 |:-|:-|
@@ -34,14 +39,7 @@
 |luci-app-vlmcsd|KMS 服务器|
 |luci-app-tailscale|Tailscale虚拟局域网|
 |luci-app-zerotier|ZeroTier虚拟网络|
-|~~luci-app-turboacc~~|Turbo ACC 网络加速|
-
-## 添加turboacc --目前无法在actions中实现
-
--带sfe:
- ```bash
- curl -sSL https://github.com/whiskyrye/ImmortalWrt-Actions/blob/main/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
-```
+|luci-app-turboacc|Turbo ACC 网络加速（no sfe），已在action中加入代码，编译无问题|
 
 ## 致谢
 
