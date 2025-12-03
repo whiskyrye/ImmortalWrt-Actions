@@ -9,8 +9,8 @@
 
 ## config文件说明
 - v23054.config为23.05.4版本，不再使用
-- v24104.config为24.10.4版本，不含turboacc插件
-- .config为24.10.4版本，加入了turboacc插件，在使用版本
+- v24104.config为24.10.4版本，不含turboacc插件-----对应Releases:2025.12.02-0051
+- .config为24.10.4版本，加入了turboacc插件，在使用版本-----对应Releases:2025.12.03-0101
 
 ## 当前.config 配置
 |插件|功能|
