@@ -26,7 +26,8 @@
 |luci-app-momo|singbox插件|
 |luci-app-lucky|端口转发,动态域名服务,http/https反向代理|
 |luci-app-mosdns| DNS 转发/分流器|
-|luci-app-nlbwmon|网络带宽监控|
+|~~luci-app-nlbwmon~~|~~网络带宽监控~~(改为使用bandix-plus)|
+|luci-app-bandix-plus|网络流量监控(多网口)|
 |luci-app-onliner|在线用户查看|
 |luci-app-partexp|一键分区扩容挂载工具|
 |~~luci-app-passwall~~|~~PassWall代理工具~~|
@@ -37,7 +38,7 @@
 |luci-app-wechatpush|推送通知插件|
 |~~luci-app-easytier~~|~~EasyTier一个简单、安全、去中心化的内网穿透 VPN 组网方案~~|
 |luci-app-vlmcsd|KMS 服务器|
-|luci-app-tailscale|Tailscale虚拟局域网|
+|~~luci-app-tailscale~~|~~Tailscale虚拟局域网~~(自行安装[openwrt-tailscale-enabler](https://github.com/adyanth/openwrt-tailscale-enabler/releases))|
 |luci-app-zerotier|ZeroTier虚拟网络|
 |luci-app-turboacc|Turbo ACC 网络加速（no sfe），已在action中加入代码，编译无问题|
 
