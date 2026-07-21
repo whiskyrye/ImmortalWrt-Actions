@@ -89,7 +89,6 @@ jobs:
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
-        rm -rf  ./feeds/packages/net/mosdns
 
     - name: Compile the firmware
       id: compile
