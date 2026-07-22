@@ -1,5 +1,5 @@
 # 代码
-name: ImmortalWrt Builder
+name: ImmortalWrt-x86 Builder
 
 on:
   repository_dispatch:
