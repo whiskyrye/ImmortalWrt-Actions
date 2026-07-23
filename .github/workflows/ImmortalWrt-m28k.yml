@@ -67,7 +67,9 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
                     
     - name: Update feeds
-      run: cd immortalwrt && ./scripts/feeds update -a
+      run: |
+        cd immortalwrt && ./scripts/feeds update -a
+        rm -rf ./feeds/packages/net/mosdns && cp -r -f ./feeds/immortalwrt/mosdns ./feeds/packages/net/mosdns
 
     - name: Install feeds
       run: |
