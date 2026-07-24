@@ -48,7 +48,7 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo -E apt-get -qq update
-        sudo -E apt-get -qq install bzip2 g++ gawk gcc git glibc-source libncurses-dev make
+        sudo -E apt-get -qq install bzip2 g++ gawk gcc git glibc-source libncurses-dev make python3-pyelftools
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
