@@ -11,8 +11,9 @@
 - v23054.config为x86-23.05.4版本，不再使用
 - v24104.config为x86-24.10.4版本，不再使用
 - v24106.config为x86-24.10.6版本，包含插件同.config配置，在使用版本--下载:[2026.07.21-2347](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.07.21-2347)
-- x86.config为x86固件，插件详见当前.config配置，v25.12.2下载：[2026.07.26-2117](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.07.26-2117)
-- m28k.config为m28k固件，包含插件同.config配置，v25.12.2下载：[2026.07.26-1813](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.07.26-1813)
+- x86.config为x86固件，插件详见当前.config配置，v25.12.2下载：[2026.10.09-1843](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.09-1843)
+- m28k.config为m28k固件，包含插件同.config配置，v25.12.2下载：[2026.10.09-1836](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.09-1836)
+- r5s.config为r5s固件，包含插件同.config配置，v25.12.2下载：[2026.10.06-2339](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.06-2339)
 
 ## 当前.config 配置
 |插件|功能|
