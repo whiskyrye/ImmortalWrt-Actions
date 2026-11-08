@@ -14,7 +14,7 @@
 - v24106.config为x86-24.10.6版本，包含插件同.config配置，下载:[2026.07.21-2347](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.07.21-2347)
 - x86.config为x86固件，插件详见当前.config配置，v25.12.2下载：[2026.10.09-1843](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.09-1843)
 - m28k.config为m28k固件，包含插件同.config配置，v25.12.2下载：[2026.10.09-1836](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.09-1836)
-- r5s.config为r5s固件，包含插件同.config配置，v25.12.2下载：[2026.10.06-2339](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.10.06-2339)
+- r5s.config为r5s固件，包含插件同.config配置，v25.12.2下载：[2026.11.08-0043](https://github.com/whiskyrye/ImmortalWrt-Actions/releases/tag/2026.11.08-0043)
 
 ## 默认登录地址
 http://192.168.1.1 或 http://immortalwrt.lan, 用户名: root, 无密码
