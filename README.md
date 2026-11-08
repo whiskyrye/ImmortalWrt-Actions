@@ -63,4 +63,6 @@ http://192.168.1.1 或 http://immortalwrt.lan, 用户名: root, 无密码
 - [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
 - [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
 - [luci-app-turboacc](https://github.com/chenmozhijin/turboacc)
+- [daeuniverse/openwrt-packages](https://github.com/daeuniverse/openwrt-packages)
+- [kenzok8/small](https://github.com/kenzok8/small)
 
