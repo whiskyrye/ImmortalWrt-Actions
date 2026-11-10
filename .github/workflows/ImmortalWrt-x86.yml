@@ -90,6 +90,7 @@ jobs:
       run: |
         cd immortalwrt
         curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
+        git clone https://github.com/QiuSimons/vmlinux-btf.git package/vmlinux-btf
         make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
