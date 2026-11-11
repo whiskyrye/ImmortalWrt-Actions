@@ -48,7 +48,10 @@ jobs:
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo -E apt-get -qq update
-        sudo -E apt-get -qq install bzip2 g++ gawk gcc git glibc-source libncurses-dev make python3-pyelftools dwarves zig
+        sudo -E apt-get -qq install bzip2 g++ gawk gcc git glibc-source libncurses-dev make python3-pyelftools dwarves zig clang llvm libbpf-dev cmake libclang-dev zstd perl file binutils curl xz-utils pkg-config ca-certificates  
+        curl -fsSL -o /tmp/bpf-linker.tar.zst "https://github.com/aya-rs/bpf-linker/releases/download/v${BPF_LINKER_VERSION}/bpf-linker-x86_64-unknown-linux-musl.tar.zst"
+        echo "${BPF_LINKER_SHA256}  /tmp/bpf-linker.tar.zst" | sha256sum -c -
+        sudo tar --zstd -xf /tmp/bpf-linker.tar.zst -C /usr/local/bin
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
@@ -90,7 +93,6 @@ jobs:
       run: |
         cd immortalwrt
         curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
-        git clone https://github.com/QiuSimons/vmlinux-btf.git package/vmlinux-btf
         make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
