@@ -44,7 +44,7 @@ http://192.168.1.1 或 http://immortalwrt.lan, 用户名: root, 无密码
 |luci-app-upnp|通用即插即用（UPnP）|
 |luci-app-vlmcsd|KMS 服务器|
 |luci-app-wechatpush|推送通知插件|
-|~~luci-app-tailscale~~|~~Tailscale虚拟局域网~~(自行安装[openwrt-tailscale-enabler](https://github.com/adyanth/openwrt-tailscale-enabler/releases))|
+|luci-app-tailscale-community|Tailscale社区版 图形面板(也可自行安装[openwrt-tailscale-enabler](https://github.com/adyanth/openwrt-tailscale-enabler/releases))|
 |luci-app-zerotier|ZeroTier虚拟网络|
 
 ## 致谢
